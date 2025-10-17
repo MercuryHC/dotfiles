@@ -16,9 +16,23 @@ vim.o.cursorline = true             -- 高亮当前行
 vim.o.winborder = "single"          -- 设置窗口边框样式
 vim.o.expandtab = true              -- 使用空格代替tab
 vim.o.number = true                 -- 显示行号
+vim.o.relativenumber = true         -- 启用相对行号
 vim.o.tabstop = 4                   -- 设置tab宽度为4个空格
 vim.o.shiftwidth = 4                -- 设置自动缩进宽度为4个空格
 vim.o.smartindent = true            -- 启用智能缩进
+vim.o.mouse = 'a'                -- 启用鼠标
+
+-- TDDO: vim.schedule
+vim.schedule(function()
+  vim.o.clipboard = 'unnamedplus'   -- 互联系统剪切板
+end)
+
+-- 智能换行
+vim.o.wrap = true                   -- 启用自动换行
+vim.o.breakindent = true            -- 启用断行缩进
+vim.o.linebreak = true              -- 启用行内断行(尽量在单词边界换行)
+vim.o.showbreak = "⤻"               -- 设置换行符号
+
 
 --------------------------------------------------------------------------------
 -- 使用vim.cmd 代替指令
