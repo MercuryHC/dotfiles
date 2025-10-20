@@ -68,4 +68,4 @@ vim.o.confirm = true
 
 --------------------------------------------------------------------------------
 -- 使用vim.cmd 代替指令
-vim.cmd.colorscheme "default"       -- 设置终端主题
+vim.cmd.colorscheme "default"       -- 终端主题初始化，后续加载catppuccin重载终端主题
