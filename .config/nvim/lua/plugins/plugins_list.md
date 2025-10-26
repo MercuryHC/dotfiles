@@ -1,29 +1,32 @@
 # This is a list of neovim plugins
 
 ## 基础插件
-- **folke/lazy.nvim**
+- **folke/lazy.nvim ⭐⭐⭐⭐⭐**
   - Description: A modern plugin manager for Neovim
   - URL: https://github.com/folke/lazy.nvim
 
-- **nvim-treesitter/nvim-treesitter**
+- **nvim-treesitter/nvim-treesitter ⭐⭐⭐⭐⭐**
   - Description: Treesitter configurations and abstraction layer for Neovim
   - URL: https://github.com/nvim-treesitter/nvim-treesitter
 
+- **folke/snacks.nvim ⭐⭐⭐⭐⭐**
+  - Description: A collection of small QoL plugins for Neovim.
+  - URL: https://github.com/folke/snacks.nvim
+
 ## 括号匹配
-- **andymass/vim-matchup**
+- **andymass/vim-matchup ⭐⭐⭐**
   - Description:match-up is a plugin that lets you highlight, navigate, and operate on sets of matching text.
   - URL: https://github.com/andymass/vim-matchup
 
 ## 主题
-- **catppuccin/nvim**
+- **catppuccin/nvim ⭐⭐⭐⭐⭐**
   - Description: An aesthetic, pastel theme for Neovim
   - URL: https://github.com/catppuccin/nvim
   <p align="center">
     <h2 align="center"><img alt="catppuccin" src=./images/theme_catppuccin.png width=500></h2>
   </p>
 
-
-- **navarasu/onedark.nvim**
+- **navarasu/onedark.nvim ⭐⭐⭐⭐**
   - Description: Dark and Light Themes for neovim >= 0.5 based on Atom One Dark & Atom One Light theme
   - URL: https://github.com/navarasu/onedark.nvim
   <p float="left">
@@ -39,7 +42,7 @@
   <img width="412" alt="Onedark - warmer" src="https://user-images.githubusercontent.com/20145075/144304700-1e333a12-6994-4fb2-9053-1e7f294d41a6.png">
   </p>
 
-- **rebelot/kanagawa.nvim**
+- **rebelot/kanagawa.nvim ⭐⭐⭐**
   - Description: Dark and Ligrk theme
   - URL: https://github.com/rebelot/kanagawa.nvim
   <p align="center">
